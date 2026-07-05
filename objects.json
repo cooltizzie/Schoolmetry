@@ -1,0 +1,90 @@
+{
+  "block": {
+    "name": "Block",
+    "type": "block",
+    "sprite": "block.png",
+    "w": 1.0,
+    "h": 1.0,
+    "spritemethod": "fit"
+  },
+  "gridcorner": {
+    "name": "Grid Block 3",
+    "type": "block",
+    "sprite": "gridcorner.png",
+    "w": 1.0,
+    "h": 1.0,
+    "spritemethod": "fit"
+  },
+  "gridline": {
+    "name": "Grid Block 1",
+    "type": "block",
+    "sprite": "gridline.png",
+    "w": 1.0,
+    "h": 1.0,
+    "spritemethod": "fit"
+  },
+  "griddeco": {
+    "name": "Gris Deco Block",
+    "type": "deco",
+    "sprite": "griddeco.png",
+    "w": 1.0,
+    "h": 1.0,
+    "spritemethod": "fit"
+  },
+  "grid2line": {
+    "name": "Grid Block 2",
+    "type": "block",
+    "sprite": "grid2line.png",
+    "w": 1.0,
+    "h": 1.0,
+    "spritemethod": "fit"
+  },
+  "spike": {
+    "name": "Spike",
+    "type": "hazard",
+    "sprite": "spike.png",
+    "w": 1.0,
+    "h": 1.0,
+    "spritemethod": "stretch",
+    "hitbox_w": 0.25,
+    "hitbox_h": 0.5,
+    "hitbox_offset_x": 0.0,
+    "hitbox_offset_y": 0.0
+  },
+  "halfspike": {
+    "name": "Half Spike",
+    "type": "hazard",
+    "sprite": "halfspike.png",
+    "w": 1.0,
+    "h": 1,
+    "spritemethod": "fit",
+    "hitbox_w": 0.2,
+    "hitbox_h": 0.2,
+    "hitbox_offset_x": 0.0,
+    "hitbox_offset_y": -0.3
+  },
+  "tallchain": {
+    "name": "Tall Chain",
+    "type": "deco",
+    "sprite": "tallchain.png",
+    "w": 0.8,
+    "h": 3.1,
+    "spritemethod": "fit"
+  },
+  "smallchain": {
+    "name": "Small Chain",
+    "type": "deco",
+    "sprite": "smallchain.png",
+    "w": 0.8,
+    "h": 1.1,
+    "spritemethod": "fit"
+  },
+  "color_trigger": {
+    "name": "Color Trigger",
+    "type": "trigger",
+    "sprite": "",
+    "w": 0.0,
+    "h": 0.0,
+    "spritemethod": "stretch"
+  }
+}
